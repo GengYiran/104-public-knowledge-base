@@ -13,7 +13,7 @@ type: tools
   - 当然可以不在本地安装，而直接使用[[深度学习镜像deepo]]。这样非常方便，开箱即用
 ## pytorch初体验
 假设已经在linux环境安装好了pytorch（例如使用[[深度学习镜像deepo]]）
-```
+```sh
 $ python
 >>> import torch
 >>> torch.__version__
@@ -34,7 +34,7 @@ https://pytorch.org/tutorials/beginner/basics/tensor_tutorial.html
   - 这些属性直接用`<变量名>.shape`这样取用即可
 
 举例
-```
+```python
 >>> import torch
 >>> a = torch.tensor(((1.,2.),(3.,4.)))
 >>> (a.dtype, a.shape, a.device)
@@ -52,7 +52,7 @@ TypeError: zeros(): argument 'size' (position 1) must be tuple of ints, not Tens
 ```
 注意`size`类型和`tensor`类型是不同的。这一点是一个良好 #规范的设计 （洗脸布和擦脚布分开。同一种数据结构不同“本质”的不放到一个类）
 ## 当成高级计算器
-```
+```python
 >>> mat_A = torch.tensor(([1,2],[3,4.]))
 >>> mat_A * mat_A #逐元素相乘
 tensor([[ 1.,  4.],
