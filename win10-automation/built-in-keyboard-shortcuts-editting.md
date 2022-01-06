@@ -6,7 +6,7 @@ type: efficiency
 # Win10自带编辑用快捷键
 本期从 #Windows10 的 #快捷键 的
 [官方列表](https://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec#WindowsVersion=Windows_10)
-中，列举一些常规通用的 #编辑 用快捷键，目的是提高工作 #自动化 程度，提高工作 #效率。
+中，列举一些常规通用的 #编辑 用快捷键，目的是提高工作 #自动化 程度，提高 #工作效率。
 这些快捷键都是某种程度上通用的，在大多数情况，大多数应用中都可用（因为应用开发者当然要照顾大家习惯嘛）
 但是也不一定。例如Linux终端，emacs编辑器之类的就没有`Ctrl + C`复制
 - 加上`Ctrl`的快捷键很多都是编辑用的。包括我们最常用的`C V X Z A`这些
